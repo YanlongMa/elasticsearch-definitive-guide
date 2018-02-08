@@ -160,7 +160,7 @@ _领域特定语言_ （DSL），((("DSL (Domain Specific Language)"))) 指定�
 
 [source,js]
 --------------------------------------------------
-GET /megacorp/employee/_search
+POST /megacorp/employee/_search
 {
     "query" : {
         "match" : {
